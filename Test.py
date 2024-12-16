@@ -189,12 +189,12 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
 
     # Specify the path to your trained model
-    model_path = "finalone.h5"  # Update this to your model's path
+    model_path = "path_to_your_model"  
 
     # Specify the Pushover credentials
     pushover_credentials = {
-        "user_key": "uhg18uc6pcrvhv67rybo5gnuixcvjg",  # Replace with your Pushover User Key
-        "api_token": "ahujfdx8vsuknr9f9o6q7poy5wacpp"  # Replace with your Pushover API Token
+        "user_key": "Replace with your Pushover User Key",  
+        "api_token": "Replace with your Pushover API Token"  
     }
 
     window = DrowsinessDetector(model_path, pushover_credentials)
